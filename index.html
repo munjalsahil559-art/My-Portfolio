@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sahil Munjal |  personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --deep-navy: #111827;
+      --black: #000000;
+      --pastel-purple: #6049ea;
+      --bright-green: #01c16a;
+      --luxury-gold: #bc9c6b;
+      --white: #fff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, var(--deep-navy), var(--black) 70%);
+      color: var(--white);
+      min-height: 100vh;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: var(--deep-navy);
+      box-shadow: 0 2px 16px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid var(--luxury-gold);
+      margin: 0 auto 1em auto;
+      display: block;
+      background: var(--luxury-gold);
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.2em;
+      color: var(--luxury-gold);
+      letter-spacing: 0.07em;
+    }
+    h2 {
+      color: var(--bright-green);
+      margin-top: 2em;
+    }
+    .section {
+      max-width: 720px;
+      margin: 2rem auto;
+      background: rgba(34, 34, 60, 0.7);
+      border-radius: 1em;
+      padding: 2em;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.20);
+    }
+    ul.skills, ul.projects {
+      list-style: none;
+      padding: 0;
+    }
+    ul.skills li, ul.projects li  {
+      padding: 0.5em 0;
+      border-bottom: 1px solid rgba(192,193,255,0.22);
+    }
+    .contact {
+      text-align: center;
+      margin-top: 3em;
+    }
+    .contact a {
+      background: var(--bright-green);
+      color: var(--deep-navy);
+      text-decoration: none;
+      margin: 0 0.7em;
+      padding: 0.6em 1.3em;
+      border-radius: 2em;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      transition: background 0.2s;
+    }
+    .contact a:hover {
+      background: var(--pastel-purple);
+      color: var(--white);
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .section { padding: 1em; }
+      .photo { width: 80px; height: 80px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Sahil Munjal Profile Photo" class="photo">
+    <h1>Sahil Munjal</h1>
+    <p>Junior Mearn-Stack Web Developer | Problem Solver | Hackathon Enthusiast</p>
+  </header>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>
+      Student developer specializing in React.js and SQL. Builder of advanced complaint management portals. Regular competitive coder and hackathon participant. Passionate about modern user authentication, mobile-first design, and collaborative development.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Html,Css & JavaScript (Front-end UI)</li>
+      <li>SQL & Database Operations</li>
+      <li>Responsive Web/Mobile Design</li>
+      <li>Admin Dashboard Development</li>
+      <li>Team Building for Hackathons</li>
+      <li>Prompt Engineering</li>
+      <li>Generative AI</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Key Projects</h2>
+    <ul class="projects">
+      <li> built responsive website for luxury cloths</li>
+    <li>   built luxury lifestyle management web site  </li> </ul>
+  </div>
+
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:munjalsahil559@gmail.com">Email</a>
+    <a href="tel:9915778764">Phone</a>
+    <a href="munjalsahil559-art" target="_blank">GitHub</a>
+   <a href="www.linkedin.com/in/sahil-munjal-142b50340">Linkdin</a>
+  </div>
+</body>
+</html>
